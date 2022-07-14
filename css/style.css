@@ -248,6 +248,10 @@ ul > li {
   /* .container_experience_info {
     max-height: 200px;
   } */
+  .item1 .container_buttom {
+    display: none;
+  }
+
   .infoTittle {
     font-size: 32px;
     color: var(--color-negro);
@@ -410,6 +414,10 @@ ul > li {
 
 /* media queryyyyy  768*/
 @media (min-width: 576px) {
+  .espacioss {
+    display: none;
+  }
+
   .item:nth-child(3) {
     display: none;
   }
